@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haya</title>
+    <link rel="stylesheet" href="Haya.css"> <!-- ربط ملف CSS -->
+	<style>
+        
+        .top-right-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 10px; 
+        }
+		.myDiv{
+		text-align:center;
+		}
+		
+	
+    </style>
+	<meta http-equiv="X-UA-Compatible" content="IE=-edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <header>
+	<span id="logo">
+	 <img src="logo00-01.png"width="157px" height="70px" float: right;>
+	 </span>  
+        
+		
+		<nav>
+		
+		
+            <ul>
+				
+                <li>الاسئلة الشائعة</a></li>
+				<li>الخريطة</a></li>
+             <li>من نحن </a></li>
+			 <li>شركاء النجاح </a></li>
+            </ul>
+        </nav>
+		
+    </header>
+	
+    <section id="home">
+        <h2>أهلًا، أنا هيا</h2> 
+<h2>أنا هنا لمساعدتك</h2>
+       
+
+  <center>
+    
+        <video controls width="500" autoplay muted>
+            <source src="IMG_1123.MP4" type="video/mp4">
+            <source src="IMG_1123.MP4" type="video/ogg">
+            <p>Sorry, Your Browser Doesn't Support Embedded Videos. Here's the <a href="https://www.youtube.com/watch?v=yDzQDeaW6O8">Link to the video</a></p>
+        </video>
+    </center>
+    </section>
+    
+	 
+        
+
+
+   <section "main" id="section1">
+   
+    <h1>الأسئلة الشائعة</h1>
+   
+  
+   
+
+        <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(1)">متى يتعين علي الوصول إلى المطار قبل موعد رحلتي ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo1" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="سوال الاول_[1].mp4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+			
+        </video>
+		<video id="AnswerVideo1" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="جواب الاول_.mp4" type="video/mp4">
+        </video></div>
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        
+            <p>    .رحلات داخلية: ٩٠ دقيقة قبل المغادرة -</p>
+			<p>   .رحلات دولية: ١٢٠ دقيقة قبل المغادرة -</p>
+			
+
+      
+	
+
+        <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(2)">ماهي المرافق المتاحة في المطار للمسافرين من ذوي الهمم ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo2" width="320" height="240" autoplay muted loop controls onclick="switchVideo(2)">
+            <source src="السوال الثاني_.mp4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+        </video>
+		
+         <video id="AnswerVideo1" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="جواب الثاني.mp4" type="video/mp4">
+        </video></div>
+		
+		
+        <!-- الإجابة النصية (مخفية في البداية) -->
+       
+            <p>.كراسي متحركة، دورات مياة مجهزة، مساعدة متاحة عند الحاجة -</p>
+        
+		
+        
+   
+	
+	
+	    <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(3)"> هل يمكنني الإتصال بشبكة الإنترنت في مطار خليج نيوم ؟ وهل هناك رسوم مقابل ذلك ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo3" width="320" height="240" autoplay muted loop controls onclick="switchVideo(3)">
+            <source src="السوال ٣.mp4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+        </video>
+		
+         <video id="AnswerVideo3" width="320" height="240" autoplay muted loop controls onclick="switchVideo(3)">
+            <source src="جواب ٣ (1).mp4" type="video/mp4">
+        </video></div>
+		
+		
+       <!-- الإجابة النصية (مخفية في ـالبداية) -->
+        
+            <p>.نعم، الواي فاي مجاني وعالي السرعة -</p>
+       
+       
+	
+	
+	
+	    <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(4)">هل هناك أي فنادق قريبة من مطار خليج نيوم ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo4" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="سوال ٤.mp4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+			
+        </video>
+		<video id="AnswerVideo4" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="جواب ٤ (1).mp4" type="video/mp4">
+        </video></div>
+		
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        
+            <p>
+.نعم، من بينها: هامبتون باي هيلتون، شاطئ ومنتجع لازور، منتجع فيستا شرما -</p>
+			
+       
+    
+	
+	    <div class="question">
+        <!-- السؤال -->
+        <h3 onclick="toggleText(5)">هل يوجد مستشفى قريب من مطار خليج نيوم ؟</h3>
+
+        <!-- فيديو السؤال -->
+        <video id="questionVideo5" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="سوال ٥.mp4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+			
+        </video>
+		<video id="AnswerVideo5" width="320" height="240" autoplay muted loop controls onclick="switchVideo(1)">
+            <source src="جواب ٥ (1).mp4" type="video/mp4">
+        </video></div>
+		
+        <!-- الإجابة النصية (مخفية في البداية) -->
+        
+            <p>.مستشفى نيوم على بعد ١٠ دقائق، إضافة لمرافق طبية داخل المطار -</p>
+			
+       
+    </div>
+	
+	
+</section>
+
+
+	
+	
+	 <section id="map">
+	 
+	   <h1>الى اين؟</h1>
+
+       
+        <img id="mainImage" src="الخريطة.png" style="width: 100%; max-width: 300px;">
+        
+           <div>
+            <button onclick="changeImage('المصلى')">المصلى</button>
+            <button onclick="changeImage('البوابات')">البوابات</button>
+           <button onclick="changeImage('البنك.png')">البنك</button>
+		   <button onclick="changeImage('دورات المياه.png')">دورات المياة</button>
+		   <button onclick="changeImage('العيادة.png')">العيادة</button>
+		    <button onclick="changeImage('النفقودات.png')">المفقودات</button>
+			 <button onclick="changeImage('التموينات.png')">التموينات</button>
+			 <button onclick="changeImage('التفتيش.png')">التفتيش</button>
+        </div>
+    </section>
+
+    <script>
+        function changeImage(location) {
+            var image = document.getElementById('mainImage');
+            if (location === 'المصلى') {
+                image.src = 'المصلى.png';
+            } else if (location === 'البوابات') {
+                image.src = 'البوابات.png';
+            } else if (location === 'البنك.png') {
+                image.src = 'البنك.png';
+            }else if (location === 'دورات المياه.png') {
+                image.src = 'دورات المياه.png';
+            }else if (location === 'العيادة.png') {
+                image.src = 'العيادة.png';
+            }else if (location === 'النفقودات.png') {
+                image.src = 'النفقودات.png';
+            }else if (location === 'التموينات.png') {
+                image.src = 'التموينات.png';
+            }else if (location === 'التفتيش.png') {
+                image.src = 'التفتيش.png';
+            }
+        }
+    </script>
+
+     
+
+     <footer>
+	
+
+
+	
+	 <section id="services">
+        <h2>شركاء النجاح</h2>
+        <p>شركة تجمع المطارات الثاني - الراعي الرسمي </p>
+		<p>يوسف بني خليف - مترجم لغة الإشارة </p>
+		
+    </section>
+	
+		<section id="we">
+        <h2>من نحن</h2>
+        <p>مشروعي "هيا" هو نظام تفاعلي مصمم خصيصًا للأشخاص الصم، مع إمكانية استخدامه من قبل جميع المستخدمين. يهدف المشروع إلى تسهيل التواصل والوصول إلى المعلومات عبر شاشة تعمل باللمس</p>
+        <p>©️ 2024 جميع الحقوق محفوظة</p>
+     </section>
+   
+    </footer>
+    <img s  >
+	
+</body>
+</html>
